@@ -20,7 +20,7 @@ const Footer = () => {
                   {footer.columns.map(({ title, links, hideMobile }, index) => (
                     <div
                       key={index}
-                      className={classNames({ "hidden lg:block": hideMobile })}
+                      className={classNames({ showblock: hideMobile })}
                     >
                       <h6 className="text-lg font-bold text-white">{title}</h6>
                       <ul className="mt-4 list-inside space-y-4">

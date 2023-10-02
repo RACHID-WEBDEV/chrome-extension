@@ -7,11 +7,11 @@ export type MenuTypes = {
 const menu: MenuTypes[] = [
   {
     title: "Features",
-    url: "#features",
+    url: "features",
   },
   {
     title: "How It Works",
-    url: "#how-it-works",
+    url: "how-it-works",
   },
 ];
 

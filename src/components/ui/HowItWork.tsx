@@ -2,7 +2,7 @@ import howitwork from "../../data/howitwork";
 import HowItWorkCard from "./HowItWorkCard";
 const HowItWork = () => {
   return (
-    <div className="pb-10 lg:pb-16 ">
+    <div id="how-it-works" className="pb-10 lg:pb-16 ">
       <div className="bg-white pt-20">
         <div className="mx-auto md:w-3/5">
           <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">

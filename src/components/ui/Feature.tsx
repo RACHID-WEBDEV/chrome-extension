@@ -7,8 +7,8 @@ import featureImage from "../../assets/feature.png";
 
 const Feature = () => {
   return (
-    <div className="pb-10 lg:pb-16 bg-lightBg">
-      <div id="features" className="relative pt-20  bg-white">
+    <div id="features" className="pb-10 lg:pb-16 bg-lightBg">
+      <div className="relative pt-20  bg-white">
         <div className="mx-auto max-w-6xl px-0 md:px-12 lg:px-6 xl:px-0">
           <div className="mx-auto md:w-3/5">
             <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white md:text-4xl lg:text-5xl">
