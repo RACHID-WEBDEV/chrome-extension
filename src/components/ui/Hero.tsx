@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="relative ml-auto pt-20 xl:pt-36">
             <div className="gap-12 md:flex md:items-center">
               <div className="text-center sm:px-12 md:w-2/3 md:px-0 md:text-left lg:w-1/2">
-                <h1 className="text-5xl font-black text-gray-800 md:text-6xl xl:text-7xl">
+                <h1 className="text-5xl font-black font-Inter text-gray-800 md:text-6xl xl:text-7xl">
                   Show Them Don’t Just Tell
                 </h1>
                 <div className="">
