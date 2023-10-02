@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Help Me Out",
+  "version": "1.0.0",
+  "description": "Help Me Out-Record your screen and audio",
+  "permissions": [
+    "activeTab",
+    "desktopCapture",
+    "storage",
+    "downloads",
+    "downloads.open",
+    "activeTab",
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "scripting"
+  ],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "full-logo-sm.png",
+    "48": "full-logo-sm.png",
+    "128": "full-logo-sm.png"
+  }
+}
