@@ -42,14 +42,14 @@ const Navbar = () => {
             </svg>
           </button>
 
-          <div className="hidden w-full lg:block lg:w-auto">
+          <div className="showblock w-full lg:w-auto">
             <ul className="flex items-center font-medium rounded-lg md:space-x-14 ">
               {menu.map(({ url, title }, index) => (
                 <Navlink key={index} url={url} title={title} />
               ))}
             </ul>
           </div>
-          <div className="hidden w-full lg:block lg:w-auto cursor-pointer">
+          <div className="showblock w-full  lg:w-auto cursor-pointer">
             <Link to="/login">
               <p className="text-base font-semibold text-main">Get Started</p>
             </Link>

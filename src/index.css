@@ -120,3 +120,12 @@ textarea:focus::-webkit-input-placeholder {
 .focusClassName {
   @apply focus:border-primary-200 focus:ring-primary-200 focus:placeholder:text-gray-300 focus:shadow-primary-sm;
 }
+
+.showblock {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .showblock {
+    display: block;
+  }
+}
